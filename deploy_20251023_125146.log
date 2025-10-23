@@ -1,0 +1,322 @@
+[0;34m[INFO][0m Starting deployment process...
+[0;34m[INFO][0m Log file: deploy_20251023_125146.log
+[0;34m[INFO][0m =========================================
+[0;34m[INFO][0m Stage 1: Collecting Deployment Parameters
+[0;34m[INFO][0m =========================================
+[0;34m[INFO][0m Remote Server Configuration:
+[0;32m[SUCCESS][0m Parameters collected successfully
+[0;34m[INFO][0m Project: dockerizedapp
+[0;34m[INFO][0m Branch: main
+[0;34m[INFO][0m Server: Cloud@40.71.214.220
+[0;34m[INFO][0m Port: 5000
+[0;34m[INFO][0m =========================================
+[0;34m[INFO][0m Stage 2: Cloning Repository
+[0;34m[INFO][0m =========================================
+[0;34m[INFO][0m Cloning repository...
+Cloning into './dockerizedapp'...
+sending incremental file list
+deleting dockerizedapp/.git/refs/tags/
+deleting dockerizedapp/.git/refs/remotes/origin/HEAD
+deleting dockerizedapp/.git/refs/remotes/origin/
+deleting dockerizedapp/.git/refs/remotes/
+deleting dockerizedapp/.git/refs/heads/main
+deleting dockerizedapp/.git/refs/heads/
+deleting dockerizedapp/.git/refs/
+deleting dockerizedapp/.git/objects/pack/pack-212e73aceea3c37e55aaab00d0d10bfc933f5786.pack
+deleting dockerizedapp/.git/objects/pack/pack-212e73aceea3c37e55aaab00d0d10bfc933f5786.idx
+deleting dockerizedapp/.git/objects/pack/
+deleting dockerizedapp/.git/objects/info/
+deleting dockerizedapp/.git/objects/
+deleting dockerizedapp/.git/logs/refs/remotes/origin/HEAD
+deleting dockerizedapp/.git/logs/refs/remotes/origin/
+deleting dockerizedapp/.git/logs/refs/remotes/
+deleting dockerizedapp/.git/logs/refs/heads/main
+deleting dockerizedapp/.git/logs/refs/heads/
+deleting dockerizedapp/.git/logs/refs/
+deleting dockerizedapp/.git/logs/HEAD
+deleting dockerizedapp/.git/logs/
+deleting dockerizedapp/.git/info/exclude
+deleting dockerizedapp/.git/info/
+deleting dockerizedapp/.git/hooks/update.sample
+deleting dockerizedapp/.git/hooks/push-to-checkout.sample
+deleting dockerizedapp/.git/hooks/prepare-commit-msg.sample
+deleting dockerizedapp/.git/hooks/pre-receive.sample
+deleting dockerizedapp/.git/hooks/pre-rebase.sample
+deleting dockerizedapp/.git/hooks/pre-push.sample
+deleting dockerizedapp/.git/hooks/pre-merge-commit.sample
+deleting dockerizedapp/.git/hooks/pre-commit.sample
+deleting dockerizedapp/.git/hooks/pre-applypatch.sample
+deleting dockerizedapp/.git/hooks/post-update.sample
+deleting dockerizedapp/.git/hooks/fsmonitor-watchman.sample
+deleting dockerizedapp/.git/hooks/commit-msg.sample
+deleting dockerizedapp/.git/hooks/applypatch-msg.sample
+deleting dockerizedapp/.git/hooks/
+deleting dockerizedapp/.git/branches/
+deleting dockerizedapp/.git/packed-refs
+deleting dockerizedapp/.git/index
+deleting dockerizedapp/.git/description
+deleting dockerizedapp/.git/config
+deleting dockerizedapp/.git/HEAD
+deleting dockerizedapp/.git/
+deleting dockerizedapp/requirements.txt
+deleting dockerizedapp/app.py
+deleting dockerizedapp/README.md
+deleting dockerizedapp/Dockerfile
+deleting dockerizedapp/
+deleting .git/ORIG_HEAD
+deleting .git/FETCH_HEAD
+./
+Dockerfile
+README.md
+app.py
+deploy_20251023_125146.log
+requirements.txt
+.git/
+.git/HEAD
+.git/config
+.git/description
+.git/index
+.git/packed-refs
+.git/branches/
+.git/hooks/
+.git/hooks/applypatch-msg.sample
+.git/hooks/commit-msg.sample
+.git/hooks/fsmonitor-watchman.sample
+.git/hooks/post-update.sample
+.git/hooks/pre-applypatch.sample
+.git/hooks/pre-commit.sample
+.git/hooks/pre-merge-commit.sample
+.git/hooks/pre-push.sample
+.git/hooks/pre-rebase.sample
+.git/hooks/pre-receive.sample
+.git/hooks/prepare-commit-msg.sample
+.git/hooks/push-to-checkout.sample
+.git/hooks/update.sample
+.git/info/
+.git/info/exclude
+.git/logs/
+.git/logs/HEAD
+.git/logs/refs/
+.git/logs/refs/heads/
+.git/logs/refs/heads/main
+.git/logs/refs/remotes/
+.git/logs/refs/remotes/origin/
+.git/logs/refs/remotes/origin/HEAD
+.git/objects/
+.git/objects/info/
+.git/objects/pack/
+.git/objects/pack/pack-212e73aceea3c37e55aaab00d0d10bfc933f5786.idx
+.git/objects/pack/pack-212e73aceea3c37e55aaab00d0d10bfc933f5786.pack
+.git/refs/
+.git/refs/heads/
+.git/refs/heads/main
+.git/refs/remotes/
+.git/refs/remotes/origin/
+.git/refs/remotes/origin/HEAD
+.git/refs/tags/
+
+sent 4,654 bytes  received 2,976 bytes  5,086.67 bytes/sec
+total size is 37,693  speedup is 4.94
+[0;34m[INFO][0m Stopping existing containers...
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 6.8.0-1031-azure x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Thu Oct 23 12:52:40 UTC 2025
+
+  System load:  0.0                Processes:             145
+  Usage of /:   27.7% of 28.89GB   Users logged in:       1
+  Memory usage: 4%                 IPv4 address for eth0: 10.1.0.4
+  Swap usage:   0%
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+Expanded Security Maintenance for Applications is not enabled.
+
+13 updates can be applied immediately.
+13 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+1 additional security update can be applied with ESM Apps.
+Learn more about enabling ESM Apps service at https://ubuntu.com/esm
+
+New release '24.04.3 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+[0;34m[INFO][0m Building and starting containers...
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 6.8.0-1031-azure x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Thu Oct 23 12:52:40 UTC 2025
+
+  System load:  0.0                Processes:             145
+  Usage of /:   27.7% of 28.89GB   Users logged in:       1
+  Memory usage: 4%                 IPv4 address for eth0: 10.1.0.4
+  Swap usage:   0%
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+Expanded Security Maintenance for Applications is not enabled.
+
+13 updates can be applied immediately.
+13 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+1 additional security update can be applied with ESM Apps.
+Learn more about enabling ESM Apps service at https://ubuntu.com/esm
+
+New release '24.04.3 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            Install the buildx component to build images with BuildKit:
+            https://docs.docker.com/go/buildx/
+
+Sending build context to Docker daemon  72.19kB
+Step 1/7 : FROM python:3.12-alpine
+ ---> bebd4d8fe0e3
+Step 2/7 : WORKDIR /app
+ ---> Using cache
+ ---> 0f2405900e77
+Step 3/7 : COPY requirements.txt .
+ ---> Using cache
+ ---> 1b108a448716
+Step 4/7 : RUN pip install --no-cache-dir -r requirements.txt
+ ---> Using cache
+ ---> d07364edc09a
+Step 5/7 : COPY app.py .
+ ---> Using cache
+ ---> ac79bbb8bc9b
+Step 6/7 : EXPOSE 5000
+ ---> Using cache
+ ---> 45248aa3c9d3
+Step 7/7 : CMD ["python", "app.py"]
+ ---> Using cache
+ ---> 7800c297139e
+Successfully built 7800c297139e
+Successfully tagged dockerizedapp:latest
+8264d7828280a88101a0f5aab234fc90039984c4282d7f192b06a7af52d21885
+[0;34m[INFO][0m Waiting for container to be ready...
+Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 6.8.0-1031-azure x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Thu Oct 23 12:52:40 UTC 2025
+
+  System load:  0.0                Processes:             145
+  Usage of /:   27.7% of 28.89GB   Users logged in:       1
+  Memory usage: 4%                 IPv4 address for eth0: 10.1.0.4
+  Swap usage:   0%
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+Expanded Security Maintenance for Applications is not enabled.
+
+13 updates can be applied immediately.
+13 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+1 additional security update can be applied with ESM Apps.
+Learn more about enabling ESM Apps service at https://ubuntu.com/esm
+
+New release '24.04.3 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+Running containers:
+CONTAINER ID   IMAGE                  COMMAND           CREATED         STATUS         PORTS                                         NAMES
+8264d7828280   dockerizedapp:latest   "python app.py"   9 seconds ago   Up 6 seconds   0.0.0.0:5000->5000/tcp, [::]:5000->5000/tcp   dockerizedapp
+Container logs (last 20 lines):
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.0.2:5000
+[33mPress CTRL+C to quit[0m
+[0;32m[SUCCESS][0m Application deployed successfully
+[0;34m[INFO][0m =========================================
+[0;34m[INFO][0m Stage 7: Configuring Nginx Reverse Proxy
+[0;34m[INFO][0m =========================================
+[0;34m[INFO][0m Creating Nginx configuration...
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 6.8.0-1031-azure x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Thu Oct 23 12:52:40 UTC 2025
+
+  System load:  0.0                Processes:             145
+  Usage of /:   27.7% of 28.89GB   Users logged in:       1
+  Memory usage: 4%                 IPv4 address for eth0: 10.1.0.4
+  Swap usage:   0%
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+Expanded Security Maintenance for Applications is not enabled.
+
+13 updates can be applied immediately.
+13 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+1 additional security update can be applied with ESM Apps.
+Learn more about enabling ESM Apps service at https://ubuntu.com/esm
+
+New release '24.04.3 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+sed: -e expression #1, char 0: no previous regular expression
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+[0;32m[SUCCESS][0m Nginx configured successfully
+[0;34m[INFO][0m =========================================
+[0;34m[INFO][0m Stage 8: Validating Deployment
+[0;34m[INFO][0m =========================================
+[0;34m[INFO][0m Checking Docker service status...
+active
+[0;32m[SUCCESS][0m Docker service is running
+[0;34m[INFO][0m Checking container status...
+[0;32m[SUCCESS][0m Container is running
+[0;34m[INFO][0m Checking Nginx service status...
+active
+[0;32m[SUCCESS][0m Nginx service is running
+[0;34m[INFO][0m Testing application connectivity on remote server...
+200[0;34m[INFO][0m Testing Nginx reverse proxy...
+[0;32m[SUCCESS][0m Nginx reverse proxy is working (HTTP 200)
+[0;32m[SUCCESS][0m Deployment validation completed
+[0;34m[INFO][0m 
+[0;34m[INFO][0m =========================================
+[0;32m[SUCCESS][0m 🎉 DEPLOYMENT SUCCESSFUL! 🎉
+[0;34m[INFO][0m =========================================
+[0;34m[INFO][0m Application URL: http://40.71.214.220
+[0;34m[INFO][0m Direct Access: http://40.71.214.220:5000
+[0;34m[INFO][0m Project: dockerizedapp
+[0;34m[INFO][0m Log file: deploy_20251023_125146.log
+[0;34m[INFO][0m Deployment completed successfully!
+[0;34m[INFO][0m Check deploy_20251023_125146.log for detailed logs
